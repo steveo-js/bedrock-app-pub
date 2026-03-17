@@ -2,9 +2,9 @@
 
 A native macOS application that connects to AI models on Amazon Bedrock. Your AWS credentials stay on your machine and are never sent anywhere except directly to AWS.
 
-**Latest Version:** v0.1.84
+**Latest Version:** v0.1.86
 
-[Download BedrockChat-0.1.84-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.84/BedrockChat-0.1.84-arm64.dmg)
+[Download BedrockChat-0.1.86-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.86/BedrockChat-0.1.86-arm64.dmg)
 
 ## How to Install
 
@@ -19,6 +19,7 @@ A native macOS application that connects to AI models on Amazon Bedrock. Your AW
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.86 | March 16, 2026 | Added SHA-256 integrity verification to the updater — the app now downloads and verifies the DMG checksum before opening it, preventing corrupted installs |
 | v0.1.84 | March 16, 2026 | Replaced scenarios with 3 NovaTech enterprise workflows: IT Helpdesk & Asset Management, Finance & Expense Operations, and HR & People Operations — each with 3 knowledge bases and 15 scenario-specific attacks |
 | v0.1.81 | March 16, 2026 | Fixed external links (download DMG, view on GitHub) not opening in system browser |
 | v0.1.80 | March 16, 2026 | Fixed agent chat bug where responses from one agent appeared in another agent's chat window; added update checker with auto-check on launch and blue dot badge; updated .gitignore; added automated release workflow |
