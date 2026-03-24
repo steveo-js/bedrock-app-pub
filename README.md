@@ -2,7 +2,7 @@
 
 A native macOS application that connects to AI models on Amazon Bedrock. Your AWS credentials stay on your machine and are never sent anywhere except directly to AWS.
 
-**Latest Version:** v0.1.114
+**Latest Version:** v0.1.115
 
 [Download BedrockChat-0.1.90-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.90/BedrockChat-0.1.90-arm64.dmg)
 
@@ -19,6 +19,7 @@ A native macOS application that connects to AI models on Amazon Bedrock. Your AW
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.115 | March 24, 2026 | Replace inline action buttons with a three-dot popout menu so agent/KB names are no longer truncated |
 | v0.1.114 | March 24, 2026 | Add claim/unclaim to manually move agents and KBs between My Standalone and Other sections |
 | v0.1.113 | March 24, 2026 | Agents panel reorganized into My Scenarios / My Standalone Agents & KBs / Other Agents & KBs — each collapsible, ownership tracked via createdBySeed flag |
 | v0.1.112 | March 24, 2026 | Switch AWS Profile button moved into AWS section of profile popover, matching Azure layout |
