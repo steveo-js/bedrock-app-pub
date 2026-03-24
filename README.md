@@ -2,7 +2,7 @@
 
 A native macOS application that connects to AI models on Amazon Bedrock. Your AWS credentials stay on your machine and are never sent anywhere except directly to AWS.
 
-**Latest Version:** v0.1.111
+**Latest Version:** v0.1.112
 
 [Download BedrockChat-0.1.90-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.90/BedrockChat-0.1.90-arm64.dmg)
 
@@ -19,6 +19,7 @@ A native macOS application that connects to AI models on Amazon Bedrock. Your AW
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.112 | March 24, 2026 | Switch AWS Profile button moved into AWS section of profile popover, matching Azure layout |
 | v0.1.111 | March 24, 2026 | Switch Azure Profile button in profile popover — update endpoint, API key, or Entra ID creds with inline connection test |
 | v0.1.110 | March 24, 2026 | Profile popover now shows Azure connection info (endpoint + deployments) alongside AWS; visible whenever any provider is connected |
 | v0.1.109 | March 24, 2026 | Dynamic launch check: startup now checks only configured providers (AWS-only, Azure-only, or both); ready if either passes |
