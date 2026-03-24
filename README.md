@@ -2,7 +2,7 @@
 
 A native macOS application that connects to AI models on Amazon Bedrock. Your AWS credentials stay on your machine and are never sent anywhere except directly to AWS.
 
-**Latest Version:** v0.1.117
+**Latest Version:** v0.1.118
 
 [Download BedrockChat-0.1.90-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.90/BedrockChat-0.1.90-arm64.dmg)
 
@@ -19,6 +19,7 @@ A native macOS application that connects to AI models on Amazon Bedrock. Your AW
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.118 | March 24, 2026 | Azure flow revamp: vector store management, step-by-step scenario builds with progress UI, supervisor function tools, Azure terminology (Vector Store/Deployment/Assistant) throughout |
 | v0.1.117 | March 24, 2026 | Fix Azure pivot link to use correct Azure Portal URL for the OpenAI resource |
 | v0.1.116 | March 24, 2026 | Add Open in Console pivot links to agent and KB action menus for both AWS and Azure |
 | v0.1.115 | March 24, 2026 | Replace inline action buttons with a three-dot popout menu so agent/KB names are no longer truncated |
