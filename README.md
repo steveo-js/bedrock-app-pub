@@ -2,7 +2,7 @@
 
 A native macOS application that connects to AI models on Amazon Bedrock. Your AWS credentials stay on your machine and are never sent anywhere except directly to AWS.
 
-**Latest Version:** v0.1.128
+**Latest Version:** v0.1.129
 
 [Download BedrockChat-0.1.90-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.90/BedrockChat-0.1.90-arm64.dmg)
 
@@ -19,6 +19,7 @@ A native macOS application that connects to AI models on Amazon Bedrock. Your AW
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.129 | March 25, 2026 | Azure wizard: failed deployments no longer block completion (Continue anyway button added); verify step now shows all pass/fail results clearly; project endpoint pre-filled from saved config on re-entry. |
 | v0.1.128 | March 25, 2026 | Improved error message when a model deployment doesn't exist: now shows 'Deployment not found — make sure it is deployed in your Azure AI Services account' instead of the raw 404. |
 | v0.1.127 | March 25, 2026 | Fixed 404 on all Azure model verification: inference calls were going to the project management sub-path (/api/projects/{project}/openai/...) instead of the account-level inference endpoint. Now strips /api/projects/... from the project endpoint URL before constructing the AzureOpenAI client. |
 | v0.1.126 | March 25, 2026 | Fixed 404 during Azure connection test (models.list not supported at AI Foundry project endpoints — now treated as success). Added Debug Log panel in Help showing exact URLs, status codes, and response bodies for every Azure HTTP call. |
