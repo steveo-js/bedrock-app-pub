@@ -2,7 +2,7 @@
 
 A native macOS application that connects to AI models on Amazon Bedrock. Your AWS credentials stay on your machine and are never sent anywhere except directly to AWS.
 
-**Latest Version:** v0.1.142
+**Latest Version:** v0.1.143
 
 [Download BedrockChat-0.1.90-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.90/BedrockChat-0.1.90-arm64.dmg)
 
@@ -19,6 +19,7 @@ A native macOS application that connects to AI models on Amazon Bedrock. Your AW
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.143 | March 26, 2026 | Azure Models view now shows which AI Services account and resource group you're looking at |
 | v0.1.142 | March 26, 2026 | Setup wizard now auto-creates AI Foundry Hub and Project after provisioning AI Services — no more copying a project endpoint URL from the portal |
 | v0.1.141 | March 26, 2026 | Add AI Foundry Resources manager: create/delete hubs and projects, switch active project, all from within SEED |
 | v0.1.140 | March 26, 2026 | Show connected Azure project name in Agents sidebar so users know which AI Foundry project their agents live in |
