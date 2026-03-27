@@ -2,7 +2,7 @@
 
 A native macOS application that connects to AI models on Amazon Bedrock. Your AWS credentials stay on your machine and are never sent anywhere except directly to AWS.
 
-**Latest Version:** v0.1.150
+**Latest Version:** v0.1.151
 
 [Download BedrockChat-0.1.90-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.90/BedrockChat-0.1.90-arm64.dmg)
 
@@ -19,6 +19,7 @@ A native macOS application that connects to AI models on Amazon Bedrock. Your AW
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.151 | March 26, 2026 | Fix Azure setup wizard: create projects as CognitiveServices/accounts/projects (new Foundry type) instead of ML workspace kind=Project; remove Hub from provisioning flow; this is the root cause fix for 'project does not exist' errors |
 | v0.1.150 | March 26, 2026 | Fix 'project does not exist' — add AI Services connection to Hub when missing; fix connection body format and account name extraction |
 | v0.1.149 | March 26, 2026 | Add Azure diagnostic endpoint for debugging project endpoint issues |
 | v0.1.148 | March 26, 2026 | Auto-repair project endpoint on 'does not exist' errors — discovers correct AI Services account from Hub ARM connections |
