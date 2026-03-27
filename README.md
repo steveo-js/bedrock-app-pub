@@ -2,7 +2,7 @@
 
 A native macOS application that connects to AI models on Amazon Bedrock. Your AWS credentials stay on your machine and are never sent anywhere except directly to AWS.
 
-**Latest Version:** v0.1.155
+**Latest Version:** v0.1.156
 
 [Download BedrockChat-0.1.90-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.90/BedrockChat-0.1.90-arm64.dmg)
 
@@ -19,6 +19,7 @@ A native macOS application that connects to AI models on Amazon Bedrock. Your AW
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.156 | March 27, 2026 | Fixed Azure supervisor agent 400 error: tool call_id mismatch in Responses API streaming handler |
 | v0.1.155 | March 27, 2026 | Fixed Azure scenario build: spinning coordinator step after success, and agent list not refreshing on modal close |
 | v0.1.154 | March 27, 2026 | Added Azure Foundry propagation delay notice to scenario success screen |
 | v0.1.153 | March 27, 2026 | Hide Chat tab; Agents is now the default view on launch |
