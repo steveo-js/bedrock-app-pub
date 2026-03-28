@@ -2,7 +2,7 @@
 
 A native macOS application that connects to AI models on Amazon Bedrock. Your AWS credentials stay on your machine and are never sent anywhere except directly to AWS.
 
-**Latest Version:** v0.1.161
+**Latest Version:** v0.1.162
 
 [Download BedrockChat-0.1.90-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.90/BedrockChat-0.1.90-arm64.dmg)
 
@@ -19,6 +19,7 @@ A native macOS application that connects to AI models on Amazon Bedrock. Your AW
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.162 | March 27, 2026 | Added multi-account SSO support: SEED now detects when your SSO session has access to multiple AWS accounts and shows a picker to choose which account and role to use |
 | v0.1.161 | March 27, 2026 | Disabled Connected Agents option: not supported by current Azure AI Agent Service API (invalid tool type) |
 | v0.1.160 | March 27, 2026 | Fixed Azure KB detail: show files from vector store, hide S3/ingestion UI |
 | v0.1.158 | March 27, 2026 | Added Azure scenario orchestration mode toggle: Function Calling (stable) vs Connected Agents (Azure-native preview); mode tagged on all created resources |
