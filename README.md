@@ -1,21 +1,22 @@
 # SEED — Releases
 
-A native desktop application that connects to AI models on Amazon Bedrock and Azure AI Foundry. Your credentials stay on your machine and are never sent anywhere except directly to AWS or Azure.
+A native macOS application that connects to AI models on Amazon Bedrock. Your AWS credentials stay on your machine and are never sent anywhere except directly to AWS.
 
-**Latest Version:** v0.1.168
+**Latest Version:** v0.1.167
 
-[macOS arm64 DMG](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.168/SEED-0.1.168-arm64.dmg) | [Windows x64 Installer](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.167/SEED-0.1.167-x64.exe)
+[Download SEED-0.1.167-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.167/SEED-0.1.167-arm64.dmg)
 
 ## How to Install
 
-**macOS:** Download the DMG, open it, drag **SEED** into Applications, then launch it.
-> If macOS shows "damaged and can't be opened", run `xattr -cr /Applications/SEED.app` in Terminal.
+1. Download the DMG above
+2. Open it and drag **SEED** into your **Applications** folder
+3. Eject the disk image
+4. Open **SEED** from Applications
 
-**Windows:** Download and run the installer. SEED will install silently and appear in the system tray.
+> **If macOS shows "damaged and can't be opened":** Open Terminal and run `xattr -cr /Applications/SEED.app`, then launch the app normally.
 
 ## Changelog
 
-| Version | Date | Platform | Changes |
-|---------|------|----------|---------|
-| v0.1.168 | March 28, 2026 | macOS arm64 | Added Windows support (native NSIS installer, x64); fixed Windows release publish to upload artifacts to the same GitHub release as the macOS build |
-| v0.1.167 | March 28, 2026 | macOS arm64 | Added Windows x64 support — cross-platform app code, NSIS installer build chain, AppIcon.ico; macOS build unchanged |
+| Version | Date | Changes |
+|---------|------|---------|
+| v0.1.167 | March 28, 2026 | Added Claude Chat tab with direct Anthropic API integration, named proxy profiles for routing, and Claude section in Settings |
