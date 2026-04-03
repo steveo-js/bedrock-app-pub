@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.193
+**Latest Version:** v0.1.194
 
-[Download SEED-0.1.193-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.193/SEED-0.1.193-arm64.dmg)
+[Download SEED-0.1.194-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.194/SEED-0.1.194-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.194 | April 3, 2026 | Added guardrail-testing prompts to Legal Research and AML Operations scenario guides (legal/financial advice denial, PII triggers, prompt injection); renamed Assets panel from Agents. |
 | v0.1.193 | April 3, 2026 | Added Builds tab with full build history (persisted to localStorage), cancel-with-rollback on running builds, and a live running-count badge on the tab so builds are never lost or invisible. |
 | v0.1.192 | April 3, 2026 | Fixed agent panel header layout: Scenarios, +Agent, and +KB buttons now move to a dedicated second row with equal flex sizing so they stay properly positioned at any column width. |
 | v0.1.191 | April 3, 2026 | Fixed guardrail build errors in Legal Research and AML Operations scenarios: shortened topic definitions to stay under the 200-char AWS limit, and corrected PROMPT_ATTACK output strength to NONE (AWS only applies this filter to inputs). |
