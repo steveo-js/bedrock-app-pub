@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.184
+**Latest Version:** v0.1.185
 
-[Download SEED-0.1.184-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.184/SEED-0.1.184-arm64.dmg)
+[Download SEED-0.1.185-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.185/SEED-0.1.185-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.185 | April 3, 2026 | AI Hub model picker replaced with two-level collapsible tree: Integration (AWS Bedrock, Anthropic Direct) then Vendor (Anthropic, Amazon Nova, Meta/Llama, etc.) — vendors collapsed by default for compact navigation |
 | v0.1.184 | April 3, 2026 | AI Hub model dropdown now grouped by provider (Anthropic Direct, Anthropic via Bedrock, Amazon Nova, Meta/Llama, Mistral, Cohere, AI21, DeepSeek) based on model ID prefix |
 | v0.1.183 | April 3, 2026 | Scenario auto-detection: syncing AWS agents now restores scenario links by name pattern; new scan button and manual Link to Scenario menu option for manual/auto re-linking of orphaned agents and KBs |
 | v0.1.182 | April 3, 2026 | Custom Groups: tag any agent or KB into named groups via the row action menu — shows as a new My Groups section in the sidebar, independent of scenarios |
