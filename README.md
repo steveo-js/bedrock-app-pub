@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.187
+**Latest Version:** v0.1.188
 
-[Download SEED-0.1.187-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.187/SEED-0.1.187-arm64.dmg)
+[Download SEED-0.1.188-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.188/SEED-0.1.188-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.188 | April 3, 2026 | Background builds: scenario builds now run independently in a persistent Builds Tray at the bottom of every screen with step progress, elapsed time, and Open button on completion; toast notifications fire regardless of which tab you are on; multiple concurrent builds supported. |
 | v0.1.187 | April 3, 2026 | Fixed KB scenario auto-recovery on sync and supervisor sub-agents not reappearing after config reset — refresh now calls ListAgentCollaborators and detectKBScenario to rebuild both automatically. |
 | v0.1.186 | April 3, 2026 | Agents & KBs column is now collapsible — click the ◀ chevron in the header to collapse to a 28px strip showing a vertical Agents label, then click the strip to expand again. |
 | v0.1.185 | April 3, 2026 | AI Hub model picker replaced with two-level collapsible tree: Integration (AWS Bedrock, Anthropic Direct) then Vendor (Anthropic, Amazon Nova, Meta/Llama, etc.) — vendors collapsed by default for compact navigation |
