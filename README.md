@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.212
+**Latest Version:** v0.1.213
 
-[Download SEED-0.1.212-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.212/SEED-0.1.212-arm64.dmg)
+[Download SEED-0.1.213-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.213/SEED-0.1.213-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.213 | April 5, 2026 | Fix: Guardrail test prompts redesigned to reliably trigger Bedrock guardrails — denied topic prompts embed exact prohibited phrases, PROMPT_ATTACK uses clear jailbreak language, MISCONDUCT uses actual criminal/fraud requests |
 | v0.1.212 | April 5, 2026 | Fix: Enable Guardrail failing with duplicate name error — route now looks up existing guardrail by name before creating, so re-enabling after a sync wipe reuses the AWS guardrail instead of erroring |
 | v0.1.211 | April 5, 2026 | Fixed guardrailId (and tags) being wiped on every agent sync — the sync route now preserves all local-only fields from the existing config record that AWS doesn't return |
 | v0.1.210 | April 5, 2026 | Fixed split scenario groups (KBs and agents with mismatched scenarioIds now merged by name); added Expand all / Collapse all buttons to the Assets panel header |
