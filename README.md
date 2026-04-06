@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.209
+**Latest Version:** v0.1.210
 
-[Download SEED-0.1.209-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.209/SEED-0.1.209-arm64.dmg)
+[Download SEED-0.1.210-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.210/SEED-0.1.210-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.210 | April 5, 2026 | Fixed split scenario groups (KBs and agents with mismatched scenarioIds now merged by name); added Expand all / Collapse all buttons to the Assets panel header |
 | v0.1.209 | April 5, 2026 | Renamed Apply Guardrail to Enable Guardrail; when a guardrail is already active the menu now shows Disable Guardrail which removes the guardrail config from all agents and deletes the guardrail resource from AWS |
 | v0.1.208 | April 5, 2026 | Stable A-Z sort, drag-to-reorder, and pin-to-top for scenario groups, standalone agents, and standalone KBs in the Agents list — order and pins persist in localStorage |
 | v0.1.207 | April 5, 2026 | Added per-scenario ⋯ actions menu to scenario cards in the Agents list, consolidating Generate Activity, Apply Guardrail, and Delete All into a single always-visible dropdown button |
