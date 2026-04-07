@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.219
+**Latest Version:** v0.1.221
 
-[Download SEED-0.1.219-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.219/SEED-0.1.219-arm64.dmg)
+[Download SEED-0.1.221-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.221/SEED-0.1.221-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.221 | April 6, 2026 | Added two new MCP connection methods — Lambda (Bedrock calls a SEED-deployed Lambda directly) and AgentCore Gateway (Lambda + AWS-managed MCP proxy) — letting users choose per-assignment whether to use SEED Broker, Lambda, or AgentCore Gateway. Connection method selector added to the catalog picker modal and MCP detail view assign UI. Agent badges and MCPView assigned-agent list now show which method each agent uses. |
 | v0.1.219 | April 6, 2026 | MCP detail view shows assigned agents with remove/bulk-assign; multi-select mode in agent list for bulk MCP assignment |
 | v0.1.218 | April 6, 2026 | Fixed MCP OpenAPI schema validation: handle anyOf/oneOf/allOf, additionalProperties objects, null types, and description length limits |
 | v0.1.217 | April 6, 2026 | Fixed MCP SSE parsing for servers like DeepWiki that prefix responses with 'event: message' lines |
