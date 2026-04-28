@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.240
+**Latest Version:** v0.1.241
 
-[Download SEED-0.1.240-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.240/SEED-0.1.240-arm64.dmg)
+[Download SEED-0.1.241-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.241/SEED-0.1.241-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.241 | April 27, 2026 | Added Amazon Quick Flows integration — uses PredictQAppCommand to AI-generate Q App workflows from natural language descriptions, deploys them as interactive Q Apps on a minimal Q Business application, and adds an ⚡ Amazon Quick tab in the ScenarioModal with 3 scenarios (Customer Intake, Market Research, Incident Report) |
 | v0.1.240 | April 27, 2026 | Fixed QuickSight subscription check timing out on accounts that already have QuickSight — the status check was requiring the exact string ACCOUNT_SUBSCRIBED but AWS returns other strings (e.g. EXISTING_SUBSCRIPTION_ACCOUNT) for active accounts; now any non-failed status is treated as ready |
 | v0.1.239 | April 24, 2026 | Added Amazon QuickSight integration — pick a scenario (Sales Performance, Marketing Analytics, or Operations & SLA), build a full dashboard (IAM role, S3 bucket, data source, SPICE dataset, analysis, and published dashboard), view it in the AWS QuickSight console, and generate simulated activity. Available from the new ◉ QuickSight tab in Pre-Built Scenarios. |
 | v0.1.238 | April 24, 2026 | Fixed Q Business chat: removed userId from ChatSyncCommand — anonymous identity applications require userId to be omitted, not set to a string |
