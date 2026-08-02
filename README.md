@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.316
+**Latest Version:** v0.1.317
 
-[Download SEED-0.1.316-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.316/SEED-0.1.316-arm64.dmg)
+[Download SEED-0.1.317-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.317/SEED-0.1.317-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.317 | August 1, 2026 | Fix AgentCore chat failing due to required agentAliasId that AgentCore agents don't have |
 | v0.1.316 | July 31, 2026 | Critical fix: stop /api/agents/sync from silently deleting AgentCore agents from local config |
 | v0.1.315 | July 31, 2026 | Fix AgentCore agent creation failing with 'role cannot be assumed by Lambda' (IAM propagation delay) |
 | v0.1.314 | July 31, 2026 | Fix AgentCore agent creation failing with 'specified bucket does not exist' |
