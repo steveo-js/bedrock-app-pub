@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.323
+**Latest Version:** v0.1.324
 
-[Download SEED-0.1.323-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.323/SEED-0.1.323-arm64.dmg)
+[Download SEED-0.1.324-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.324/SEED-0.1.324-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.324 | August 3, 2026 | Remove Custom Lambda as a creation option (Classic and AgentCore Runtime only going forward); existing Custom Lambda agents/scenarios unaffected |
 | v0.1.323 | August 3, 2026 | Add early-access AgentCore Runtime support (real AWS Bedrock AgentCore service); rename Custom Lambda platform for accuracy |
 | v0.1.322 | August 2, 2026 | Add AgentCore badge to distinguish AgentCore vs Classic agents/scenarios/KBs in the Agents list |
 | v0.1.321 | August 2, 2026 | Fix AgentCore inference-profile model resolution and knowledge base retrieval parameter |
