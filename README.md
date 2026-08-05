@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.332
+**Latest Version:** v0.1.333
 
-[Download SEED-0.1.332-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.332/SEED-0.1.332-arm64.dmg)
+[Download SEED-0.1.333-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.333/SEED-0.1.333-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.333 | August 5, 2026 | Add a read-only Model-Invocation Logging detection step to the AWS setup flow — shows whether Amazon Bedrock model-invocation logging is enabled for the account/region (covering both Classic and AgentCore Runtime agents), with destinations and data types; detection only, configured in the environment |
 | v0.1.332 | August 5, 2026 | Readable AWS resource names for AgentCore Runtime agents — runtime and IAM role now use the agent's friendly name (plus a short id) instead of an opaque UUID, so they're identifiable in the AWS console |
 | v0.1.331 | August 5, 2026 | Add Sensitive Data Exfiltration pre-built scenario (Phase 3b): supervisor + 3 KB-grounded records agents (customer PII, employee payroll, infrastructure secrets), a DLP guardrail, and an OWASP LLM attack pack — a governance-focused POV scenario |
 | v0.1.330 | August 5, 2026 | Phase 3a: synthetic traffic generation + Attack Panel now work on AgentCore Runtime scenarios; traffic gen detects JetStream AI Hub inline blocks |
