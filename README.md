@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.330
+**Latest Version:** v0.1.331
 
-[Download SEED-0.1.330-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.330/SEED-0.1.330-arm64.dmg)
+[Download SEED-0.1.331-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.331/SEED-0.1.331-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.331 | August 5, 2026 | Add Sensitive Data Exfiltration pre-built scenario (Phase 3b): supervisor + 3 KB-grounded records agents (customer PII, employee payroll, infrastructure secrets), a DLP guardrail, and an OWASP LLM attack pack — a governance-focused POV scenario |
 | v0.1.330 | August 5, 2026 | Phase 3a: synthetic traffic generation + Attack Panel now work on AgentCore Runtime scenarios; traffic gen detects JetStream AI Hub inline blocks |
 | v0.1.329 | August 4, 2026 | Multi-agent AgentCore Runtime scenarios (Phase 2) — build a full supervisor + KB-grounded sub-agent scenario on the real AWS Bedrock AgentCore Runtime, with a per-scenario JetStream routing toggle (AI Hub inline governance vs Bedrock direct + AWS-native telemetry); supervisor delegates via the real InvokeAgentRuntime data-plane call |
 | v0.1.328 | August 4, 2026 | Remove account model-invocation logging opt-in (JetStream connector already provisions it); routing toggle unchanged |
