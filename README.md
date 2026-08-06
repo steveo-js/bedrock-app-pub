@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.334
+**Latest Version:** v0.1.335
 
-[Download SEED-0.1.334-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.334/SEED-0.1.334-arm64.dmg)
+[Download SEED-0.1.335-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.335/SEED-0.1.335-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.335 | August 5, 2026 | Stamp AgentCore Runtime agents with jetstream:* relationship tags (model, inference profile, knowledge base, sub-agent collaborators, scenario, routing mode) so JetStream's connector can graph agent relationships in its blueprints / AI manifest the way it does for Classic Bedrock Agents |
 | v0.1.334 | August 5, 2026 | Edit AgentCore Runtime agents in place — change model, instructions, description, and JetStream routing without delete-and-recreate (uses the real AgentCore UpdateAgentRuntime API; supervisors keep their sub-agents) |
 | v0.1.333 | August 5, 2026 | Add a read-only Model-Invocation Logging detection step to the AWS setup flow — shows whether Amazon Bedrock model-invocation logging is enabled for the account/region (covering both Classic and AgentCore Runtime agents), with destinations and data types; detection only, configured in the environment |
 | v0.1.332 | August 5, 2026 | Readable AWS resource names for AgentCore Runtime agents — runtime and IAM role now use the agent's friendly name (plus a short id) instead of an opaque UUID, so they're identifiable in the AWS console |
