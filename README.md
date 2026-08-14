@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.336
+**Latest Version:** v0.1.337
 
-[Download SEED-0.1.336-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.336/SEED-0.1.336-arm64.dmg)
+[Download SEED-0.1.337-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.337/SEED-0.1.337-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.337 | August 14, 2026 | AgentCore Gateway routing: front the JetStream AI Hub with an AWS AgentCore Gateway inference target so the Hub becomes a discoverable AWS resource and the Hub API key moves into the AgentCore token vault |
 | v0.1.336 | August 6, 2026 | Group the Assets panel by AWS account in AWS mode — collapsible per-account sections (account name + id), the connected account first and marked 'current', so it's clear at a glance which agents/scenarios/KBs live in which account |
 | v0.1.335 | August 5, 2026 | Stamp AgentCore Runtime agents with jetstream:* relationship tags (model, inference profile, knowledge base, sub-agent collaborators, scenario, routing mode) so JetStream's connector can graph agent relationships in its blueprints / AI manifest the way it does for Classic Bedrock Agents |
 | v0.1.334 | August 5, 2026 | Edit AgentCore Runtime agents in place — change model, instructions, description, and JetStream routing without delete-and-recreate (uses the real AgentCore UpdateAgentRuntime API; supervisors keep their sub-agents) |
