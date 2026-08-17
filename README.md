@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.338
+**Latest Version:** v0.1.339
 
-[Download SEED-0.1.338-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.338/SEED-0.1.338-arm64.dmg)
+[Download SEED-0.1.339-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.339/SEED-0.1.339-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.339 | August 17, 2026 | AI Hub Manager now lists AgentCore agents with no hub as 'No AI Hub Configured', kept distinct from agents whose hub simply wasn't recorded |
 | v0.1.338 | August 17, 2026 | AI Hub Manager tab for central hub management, plus per-build AI Hub selection so AgentCore deployments bind to a hub you choose instead of whichever was active |
 | v0.1.337 | August 14, 2026 | AgentCore Gateway routing: front the JetStream AI Hub with an AWS AgentCore Gateway inference target so the Hub becomes a discoverable AWS resource and the Hub API key moves into the AgentCore token vault |
 | v0.1.336 | August 6, 2026 | Group the Assets panel by AWS account in AWS mode — collapsible per-account sections (account name + id), the connected account first and marked 'current', so it's clear at a glance which agents/scenarios/KBs live in which account |
