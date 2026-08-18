@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.345
+**Latest Version:** v0.1.346
 
-[Download SEED-0.1.345-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.345/SEED-0.1.345-arm64.dmg)
+[Download SEED-0.1.346-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.346/SEED-0.1.346-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.346 | August 18, 2026 | Scenario builds and agent saves now verify every model against the bound AI Hub before creating anything — that the hub serves it, and for gateway routing that the gateway will forward it — reporting failures per agent with the hub's equivalent model named. An unreachable hub warns rather than blocks. |
 | v0.1.345 | August 18, 2026 | Hub- and gateway-routed agents now choose models from the AI Hub's own list instead of SEED's Bedrock catalog, with gateway-incompatible ids greyed out; blocked gateway deploys name the hub's colon-free equivalent for the same model where one exists. |
 | v0.1.344 | August 18, 2026 | Gateway-routed agents on Bedrock-style model ids (amazon.nova-lite-v1:0) failed with 400 at the gateway, which screens inbound model ids against a character set with no colon. SEED now refuses such deploys with a clear message, declares only routable models on the target, and attributes the error to the gateway rather than the Hub. |
 | v0.1.343 | August 18, 2026 | Fixes the gateway's Authorization header (credentialPrefix had a trailing space, producing 'Bearer  <key>' and a 401 from the hub), and stops reporting a failed inference target as a successful provision — provisioning now waits for the target and surfaces AWS's own failure reasons. |
