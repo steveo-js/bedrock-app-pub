@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.340
+**Latest Version:** v0.1.341
 
-[Download SEED-0.1.340-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.340/SEED-0.1.340-arm64.dmg)
+[Download SEED-0.1.341-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.341/SEED-0.1.341-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.341 | August 17, 2026 | Gateway preflight now resolves hub hostnames through public DNS (DoH, then public resolvers) instead of the system resolver, fixing false carrier-grade-NAT rejections under split-horizon DNS; the TLS probe is pinned to the public address; unverifiable resolution warns instead of blocking; certificate failures are named precisely. |
 | v0.1.340 | August 17, 2026 | Fix AgentCore agents failing to start when instructions span multiple lines (reported as a misleading init timeout); add Redeploy to repair already-deployed agents; surface the real runtime traceback; stop the gateway preflight passing hubs AWS cannot route to |
 | v0.1.339 | August 17, 2026 | AI Hub Manager now lists AgentCore agents with no hub as 'No AI Hub Configured', kept distinct from agents whose hub simply wasn't recorded |
 | v0.1.338 | August 17, 2026 | AI Hub Manager tab for central hub management, plus per-build AI Hub selection so AgentCore deployments bind to a hub you choose instead of whichever was active |
