@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.351
+**Latest Version:** v0.1.352
 
-[Download SEED-0.1.351-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.351/SEED-0.1.351-arm64.dmg)
+[Download SEED-0.1.352-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.352/SEED-0.1.352-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.352 | August 24, 2026 | Fixes a data-loss bug where every refresh silently deleted AgentCore Harness agents from SEED's config, leaving orphaned billable harnesses in AWS; sync now preserves all non-Classic records and recovers missing harness records from AWS. The asset-type filter is renamed Type and separates Classic / AgentCore Runtime / AgentCore Harness / Knowledge base / Q Business / QuickSight / Quick |
 | v0.1.351 | August 24, 2026 | Agents page redesign: one searchable, filterable asset list with user-chosen grouping; fixes the status dot that showed 28 of 55 agents as perpetually pending, Collapse-all missing 9 of 11 sections, models with a version dot rendering as a bare number, and Q Business apps falling into an Unknown account group |
 | v0.1.350 | August 24, 2026 | Runaway Autonomous Agent scenario on AgentCore Harness: knowledge bases reachable as an audited MCP tool, and an operator-driven token usage spike with live measured telemetry and cost estimates. |
 | v0.1.349 | August 22, 2026 | AgentCore Harness: a third agent platform on AWS Bedrock AgentCore Harness (the managed agent loop) with streaming replies, tool-use traces, and MCP tools via the shared tools gateway. |
