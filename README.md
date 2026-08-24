@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.349
+**Latest Version:** v0.1.350
 
-[Download SEED-0.1.349-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.349/SEED-0.1.349-arm64.dmg)
+[Download SEED-0.1.350-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.350/SEED-0.1.350-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.350 | August 24, 2026 | Runaway Autonomous Agent scenario on AgentCore Harness: knowledge bases reachable as an audited MCP tool, and an operator-driven token usage spike with live measured telemetry and cost estimates. |
 | v0.1.349 | August 22, 2026 | AgentCore Harness: a third agent platform on AWS Bedrock AgentCore Harness (the managed agent loop) with streaming replies, tool-use traces, and MCP tools via the shared tools gateway. |
 | v0.1.348 | August 18, 2026 | Fixes preset seeding so an MCP server already in the catalog is adopted rather than skipped, which left it permanently unattached to the tools gateway. Also records end-to-end verification of MCP tools on all three routing modes against live AWS. |
 | v0.1.347 | August 18, 2026 | Adds MCP tools for AgentCore Runtime agents: an account-level AgentCore Gateway in MCP mode fronting AWS Knowledge, DeepWiki and Context7, plus a bounded tool-calling loop in the generated Python covering all three routing modes. Tool schemas are baked at deploy, credentials stay in the AWS vault. |
