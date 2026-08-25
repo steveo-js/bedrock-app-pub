@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.354
+**Latest Version:** v0.1.355
 
-[Download SEED-0.1.354-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.354/SEED-0.1.354-arm64.dmg)
+[Download SEED-0.1.355-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.355/SEED-0.1.355-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.355 | August 24, 2026 | Usage spike now sends realistic, varied work — eight back-office tasks with generated records instead of one instruction repeated — and every call shows the real prompt and reply, both in the chat transcript (long prompts behind a show-full-prompt toggle) and printed to the terminal when SEED is launched from a shell |
 | v0.1.354 | August 24, 2026 | Fixes the AI Hub Chat usage-spike dialog being headed 'Trigger Runaway' — it now reads 'Usage Spike' there and keeps 'Trigger Runaway' on a harness agent |
 | v0.1.353 | August 24, 2026 | Adds the deliberate token-usage spike to AI Hub Chat, governed inline by JetStream with token counts from the Hub's own usage accounting. Also fixes the burst planner collapsing to hundreds of tiny calls on a fast transport, and concurrent workers racing past the target: a 200k-token spike went from 165 calls in 54s to 3 calls in 8s, and from 50% overshoot to 5% |
 | v0.1.352 | August 24, 2026 | Fixes a data-loss bug where every refresh silently deleted AgentCore Harness agents from SEED's config, leaving orphaned billable harnesses in AWS; sync now preserves all non-Classic records and recovers missing harness records from AWS. The asset-type filter is renamed Type and separates Classic / AgentCore Runtime / AgentCore Harness / Knowledge base / Q Business / QuickSight / Quick |
