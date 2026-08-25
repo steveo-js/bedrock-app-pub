@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.360
+**Latest Version:** v0.1.361
 
-[Download SEED-0.1.360-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.360/SEED-0.1.360-arm64.dmg)
+[Download SEED-0.1.361-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.361/SEED-0.1.361-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.361 | August 25, 2026 | The account menu's AWS and Azure connections are now collapsible cards — click to expand details and the switch/re-login actions. Both start collapsed so the whole menu fits without scrolling, and a provider whose credentials need attention opens itself |
 | v0.1.360 | August 25, 2026 | Header top-right consolidated into one account menu: the profile icon is now rightmost and holds Settings, Check for Updates and Help alongside AWS and Azure switch/re-login. Adds AWS Re-login with SSO, keeps it available when credentials have expired, makes the status dot honest about a dead session, and fixes the menu opening behind the Builds tray |
 | v0.1.359 | August 25, 2026 | Renames the AI Hub Manager tab to Gateways across the UI, in-app help, user guide and README, including the 31 error messages and empty-state links that point users at it. Naming only, no behaviour change |
 | v0.1.358 | August 25, 2026 | Renames the AI Hub Chat tab to just Chat across the UI, in-app help, user guide and README. AI Hub Manager is unchanged. Naming only, no behaviour change |
