@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.358
+**Latest Version:** v0.1.359
 
-[Download SEED-0.1.358-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.358/SEED-0.1.358-arm64.dmg)
+[Download SEED-0.1.359-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.359/SEED-0.1.359-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.359 | August 25, 2026 | Renames the AI Hub Manager tab to Gateways across the UI, in-app help, user guide and README, including the 31 error messages and empty-state links that point users at it. Naming only, no behaviour change |
 | v0.1.358 | August 25, 2026 | Renames the AI Hub Chat tab to just Chat across the UI, in-app help, user guide and README. AI Hub Manager is unchanged. Naming only, no behaviour change |
 | v0.1.357 | August 25, 2026 | AI Hub Chat: the Clear button moves from the top header to immediately right of Send, beside the conversation it acts on |
 | v0.1.356 | August 25, 2026 | AI Hub Chat cleanup: Attacks, Guardrail Tests, Usage Spike, Check Connection, Reset Connection and Disconnect all consolidated into one grouped dropdown, leaving the toolbar at profile, model, Fetch Models and the menu. Kill is removed from AI Hub Chat — Reset Connection already did everything it did, and it never stopped a running usage spike. Kill is unchanged in agent chats |
