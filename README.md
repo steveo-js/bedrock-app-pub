@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.362
+**Latest Version:** v0.1.363
 
-[Download SEED-0.1.362-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.362/SEED-0.1.362-arm64.dmg)
+[Download SEED-0.1.363-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.363/SEED-0.1.363-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.363 | August 25, 2026 | Guardrail tests move from a blocking modal to a side panel beside the conversation. Run any test individually from its row, or run all 28 as a cancellable background task reported in the Activity tray. Every prompt and response now stays in the chat, because tests are sent single-turn rather than clearing the conversation between them |
 | v0.1.362 | August 25, 2026 | Setup moves into the account menu above Check for Updates, leaving the profile icon as the only control on the right-hand side of the header |
 | v0.1.361 | August 25, 2026 | The account menu's AWS and Azure connections are now collapsible cards — click to expand details and the switch/re-login actions. Both start collapsed so the whole menu fits without scrolling, and a provider whose credentials need attention opens itself |
 | v0.1.360 | August 25, 2026 | Header top-right consolidated into one account menu: the profile icon is now rightmost and holds Settings, Check for Updates and Help alongside AWS and Azure switch/re-login. Adds AWS Re-login with SSO, keeps it available when credentials have expired, makes the status dot honest about a dead session, and fixes the menu opening behind the Builds tray |
