@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.364
+**Latest Version:** v0.1.365
 
-[Download SEED-0.1.364-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.364/SEED-0.1.364-arm64.dmg)
+[Download SEED-0.1.365-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.365/SEED-0.1.365-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.365 | August 28, 2026 | Removed Amazon Q Business, Amazon QuickSight, and Amazon Quick (Quick Flows) capabilities. Existing AWS resources are untouched and must be cleaned up in the AWS console. |
 | v0.1.364 | August 26, 2026 | Populate Data — run Attacks, Guardrail Tests and Usage Spike across up to 5 gateways at once from the Chat menu, populating the JetStream console from multiple virtual keys |
 | v0.1.363 | August 25, 2026 | Guardrail tests move from a blocking modal to a side panel beside the conversation. Run any test individually from its row, or run all 28 as a cancellable background task reported in the Activity tray. Every prompt and response now stays in the chat, because tests are sent single-turn rather than clearing the conversation between them |
 | v0.1.362 | August 25, 2026 | Setup moves into the account menu above Check for Updates, leaving the profile icon as the only control on the right-hand side of the header |
